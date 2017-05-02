@@ -41,6 +41,12 @@ nav{
   margin-left: 30px;
   width: 50px;
 }
+.logo-pink{
+  display: none;
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 50px;
+}
 /*enlace y boton*/
 .container-link{
   display: inline-block;
