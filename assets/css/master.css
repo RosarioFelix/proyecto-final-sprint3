@@ -9,6 +9,9 @@ header{
   width: 100%;
   height: 200px;
 }
+.header-in{
+  background-color: rgb(255,255,255);
+}
 a{
   text-decoration: none;
 }
@@ -58,6 +61,8 @@ nav{
   border-radius: 15px;
   background-color: #FFF;
   border-color: #ff2fca;
+  margin-left: 5px;
+  transition:
 }
 #lyft,.enlace{
   margin-left: 20px;
@@ -133,6 +138,56 @@ nav{
   display: inline-block;
   line-height: 20px;
 }
-.header-in{
-  background-color: rgb(255,255,255);
+/*footer*/
+footer{
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  background-color: #333447;
+}
+.footer-one{
+  display: inline-flex;
+  line-height: 45px;
+  width: 500px;
+  margin-left: 90px;
+  margin-top: 50px;
+  color: #FFF;
+}
+.footer-one div{
+  margin-left: 50px;
+}
+.footer-one li{
+  list-style: none;
+}
+li:hover, h3:hover {
+  cursor: pointer;
+  color: #ff2fca;
+}
+.footer-two{
+  display: inline-block;
+  width: 300px;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+.foot{
+  width: 150px;
+  display: block;
+  margin-top: 30px;
+}
+.icon{
+  position: absolute;
+  margin-top: 120px;
+}
+hr{
+  margin-top: 200px;
+  width: 60%;
+  margin-left: 18%;
+}
+.final{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 40%;
+  color: #FFF;
 }
